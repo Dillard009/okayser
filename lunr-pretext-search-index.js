@@ -1,20 +1,29 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "frontmatter-2",
+  "id": "sec-",
   "level": "1",
-  "url": "frontmatter-2.html",
-  "type": "Colophon",
-  "number": "",
-  "title": "Colophon",
-  "body": "  My Website   copyright  "
+  "url": "sec-.html",
+  "type": "Section",
+  "number": "1.1",
+  "title": "Nome da Seção",
+  "body": " Nome da Seção \\   O teorema tal.    "
+},
+{
+  "id": "thm-",
+  "level": "2",
+  "url": "sec-.html#thm-",
+  "type": "Theorem",
+  "number": "1.1.1",
+  "title": "",
+  "body": "  O teorema tal.   "
 },
 {
   "id": "sec-section-name",
   "level": "1",
   "url": "sec-section-name.html",
   "type": "Section",
-  "number": "1.1",
+  "number": "1.2",
   "title": "Section Title",
   "body": " Section Title  Text of section.  "
 },
